@@ -8,12 +8,15 @@ $(document).ready(function(){
       .parent().attr('id');
     //localStorage
     localStorage.setItem(time, value);
+
     //notify item saved/remove after 3 seconds
+    
     $('.notification').addClass('show');  
     setTimeout(function(){
-      $('.notification').removeClass('show');
+    $('.notification').removeClass('show');
     }, 3000);
    });
+   
    //dev
    function blockUpdator(){
       //get hours

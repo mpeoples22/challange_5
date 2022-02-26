@@ -65,6 +65,14 @@ body {
     background-color: #06AED5;
     color: white;
   }
+  .show{
+    display:block
+  }
+  .notification {
+    display: none;
+    padding-bottom: 10px
+    
+  }
   
   .saveBtn i:hover {
     font-size: 20px;
